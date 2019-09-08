@@ -47,7 +47,7 @@ const syncAndSeed = async () => {
         { name: 'Key', departmentId: departments[1].id },
         { name: 'Jesen', departmentId: departments[2].id },
         { name: 'Charm', departmentId: departments[1].id},
-        { name: 'Haoyu', departmentId: departments[0].id }
+        { name: 'Haoyu', departmentId: departments[1].id }
     ];
     const users = await mapSeed(userNames, User);
 
